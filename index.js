@@ -15,3 +15,5 @@ console.log(5%2);
 //       isOpen = true;
  
 // console.log(isChecked || isClose || !isOpen);
+
+console.log(2 + 2 * 2 === 6);
