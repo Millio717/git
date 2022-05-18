@@ -1,0 +1,69 @@
+Переменные: 
+// snake_case  -  car_width
+// UPPER_SNAKE_CASE  -  CAR_WIDTH
+// Kebab-case  -  Car-width
+// PascalCase  -  CarWidth
+
+
+
+Типы данных: 
+Простые типы:                       Спец.Объекты:                   
+Числа 1, 2, 3                       Массивы []
+Строки 'string', 'name'             Функции function
+Логический тип (boolean)            Объект Даты
+true/false                          Регулярные выражения
+null  -  Не существует              Ошибки
+undefined  Внутри ничего нет
+Symbol
+BigInt
+Infinity  -  Бесконечность чисел
+NaN  -  Not a Number
+
+
+
+Выводы: 
+console.log();
+alert();
+const answer = prompt('Вопрос', 'Placeholder');  -  Можно вводить ответ
+const answer = +prompt('Вопрос', 'placeholder');  -  Тип Number
+const answer = confirm('Вопрос');  -  Можно нажать ок или отмена (true or false)
+
+
+
+Операторы: 
+Унарный плюс  -  Если перед строкой поставить +, строка будет типо Number (4 + +'5');
+
+increment  -  incr++  -  Добавление ++; +1;
+decrement  -  decr--  -  Отбавление --; -1;
+
+++incr  -  Префиксный;  -  Возращает новое значение;
+incr++  -  Постфиксный;  -  Сначала возвращает старое значезние;
+
+&&  -  И  -  Возвращает true, если все аргументы true;
+||  -  Или  -  Возвращает true если один из аргументов true;
+!  -  Не  -  Возвращает оберненное, если было true вернёт false;
+
++  -  Плюс
+-  -  Минус
+*  -  Умножить
+/  -  Разделить
+===  -  Строгое сравнение
+==  -  Сравнение
+!=  -  Сравнение Не
+!==  -  Строгое сравнение Не
+%  -  Остаток от деления
+
+
+
+
+
+
+GIT: 
+
+git init  -  Чтобы следил за действиями
+git config --local user.name "Roman"  -  Сохраняет имя юзера
+git config --local user.email komanukroman@gmail.com  -  Сохраняет емаил юзера
+git status  -  Узнать за какими файлами следит гит
+git add -A  -  Добавляет все недобавленные файлы в гит
+git add main.html  -  Добавляет main.html в гит
+git commit -a -m"Hello"  -  Создание коммита (точки сохранения)
