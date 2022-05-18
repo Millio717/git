@@ -67,6 +67,7 @@ git status  -  Узнать за какими файлами следит гит
 git add -A  -  Добавляет все недобавленные файлы в гит
 git add main.html  -  Добавляет main.html в гит
 git commit -a -m"Hello"  -  Создание коммита (точки сохранения);
+git clone ссылка на репозиторий название клона
 
 Загрузить файлы на удаленное хранилище GitHub: 
 git remote add origin https://github.com/Millio717/project.git
