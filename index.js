@@ -20,6 +20,21 @@
 
 // console.log(personalMovieDB);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // const hamburger = 5;
 // const fries = 1;
 
@@ -52,14 +67,14 @@
 // console.log(fries === 3 && (naggets === 2 || hamburger === 3) && cola === 5);
 
 
-let hamburger;
-const fries = 3;
-const cola = 0;
-const nuggets = 2;
+// let hamburger;
+// const fries = 3;
+// const cola = 0;
+// const nuggets = 2;
  
-if (hamburger && cola || fries === 3 && nuggets) {
-   console.log('Done!')
-}
+// if (hamburger && cola || fries === 3 && nuggets) {
+//    console.log('Done!')
+// }
 
 
 
@@ -72,3 +87,15 @@ if (hamburger && cola || fries === 3 && nuggets) {
 // } else {
 //     console.log('Отчетов нет');
 // }
+
+
+
+
+let num = 50;
+
+for (let i = num; i <= 60; i++) {
+   if (i % 2 == 0) {
+      continue;
+   }
+   console.log(i)
+}
