@@ -89,13 +89,35 @@
 // }
 
 
+// for (let i = 0; i < 3; i++) {
+//     console.log(i);
+//     for (let j = 0; j < 3; j++) {
+//         console.log(j);
+        
+//     }
+// }
+
+// let result = '';
+// const length = 7;
+
+// for (let i = 1; i <= length; i++) {
+//     for (let j = 0; j < i; j++) {
+//         result += '*';
+//     }
+//     result += '\n'
+// }
+
+// console.log(result);
 
 
-let num = 50;
 
-for (let i = num; i <= 60; i++) {
-   if (i % 2 == 0) {
-      continue;
-   }
-   console.log(i)
+
+for (let i = 0; i < 3; i++) {
+    console.log(`First: ${i}`);
+    for (let j = 0; j < 3; i++){
+        console.log(`Second: ${j}`);
+        for (let k = 0; k < 3; k++) {
+            console.log(`Third: ${k}`);
+        }
+    }
 }
