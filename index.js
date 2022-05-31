@@ -1,4 +1,7 @@
-let str = 'hello my friends!';
-console.log(str.split(' ').map(function(word) {
-    return word[0].toUpperCase() + word.slice(1);
-}).join(' '));
+let words = 'aaa sss ddd';
+words = words.split(' ');
+
+for(let i = 0; i < words.length; i++) {
+    words[i] = words[i][0].toUpperCase() + words[i].slice(1);
+}
+console.log(words.join(' '));
